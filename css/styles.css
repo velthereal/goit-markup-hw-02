@@ -268,6 +268,12 @@ ul {
     color: #FFFFFF;
 }
 
+.list-btn {
+    display: flex;
+    margin-top: 94px;
+    margin-left: 495px;
+}
+
 .button-second {
     font-family: 'Roboto';
     font-weight: 500;
@@ -279,12 +285,25 @@ ul {
     background-color: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    height: 38px;
+    margin-right: 8px;
 }
 
 .button-second:hover {
     background-color: #2196F3;
     border-radius: 4px;
     color: #FFFFFF;
+}
+
+.portfolio {
+    width: 1170px;
+    height: 1360px
+}
+
+.portfolio-list {
+    display: flex;
 }
 
 .title-third {
